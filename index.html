@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>CNDE - Inspect Mate: Privacy Policy</h1>
-<p><small>Last updated: 25 September 2026</small></p>
+<p><small>Last updated: 9 October 2026</small></p>
 
 <p>Inspect Mate is an early research prototype supported by the Centre for Non-Destructive Evaluation (CNDE), IIT Madras. It gives inspectors spoken, advisory guidance for visual, penetrant and magnetic particle testing. This policy explains what the app does with your data.</p>
 
@@ -22,8 +22,11 @@
   <li><strong>Camera images.</strong> While a session is running, the app takes still frames from the camera about once a second. The latest frames are sent with each question so the AI can see the part.</li>
   <li><strong>Voice.</strong> While a session is running, microphone audio is streamed for speech-to-text so you can talk hands-free. Replies are turned into speech.</li>
   <li><strong>Questions and replies.</strong> The text of your questions and the AI's answers.</li>
+  <li><strong>Nickname.</strong> The nickname you type when you first open the app. You can change it in Settings at any time.</li>
+  <li><strong>Test diagnostics</strong> (version 0.1.1 and later). Because this is a test build, the app sends CNDE a copy of your inspection sessions (the camera frames, questions, replies and notes saved in the app), app logs including crash reports, your phone model, Android version and app version, and a random ID created when the app is installed. The app tells you this and asks you to agree before anything is sent.</li>
 </ul>
-<p>These are used only to provide the app's guidance. The app has no ads, no analytics and no user accounts, and it does not use the advertising ID or your location.</p>
+<p>These are used only to provide the app's guidance and to find and fix problems in the prototype. Voice audio is not stored or sent to CNDE. The app has no ads, no advertising or marketing analytics and no user accounts, and it does not use the advertising ID or your location.</p>
+<p>Please do not point the camera at people or at confidential material.</p>
 
 <h2>Who processes the data</h2>
 <p>To generate guidance, the app sends data over encrypted connections (HTTPS/WSS) to these service providers, which process it on our behalf:</p>
@@ -32,9 +35,14 @@
   <li><strong>Sarvam AI</strong>: voice audio for speech-to-text, and reply text for text-to-speech. See <a href="https://www.sarvam.ai/privacy-policy">Sarvam's privacy policy</a>.</li>
 </ul>
 <p>These providers may keep request data for a limited time under their own policies, for example for abuse monitoring. We do not sell your data or share it with anyone else.</p>
+<p>The app also runs on Google Play Services for AR (ARCore), which is provided by Google LLC and governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>What stays on your phone</h2>
-<p>Session history (images, questions, replies and notes) and app settings are saved only on your device. You can delete sessions in the app, or remove everything by clearing the app's storage or uninstalling it.</p>
+<h2>Test diagnostics: storage, access and deletion</h2>
+<p>Test diagnostics are sent over HTTPS and stored on <strong>Cloudflare</strong> (R2 storage), which holds them on our behalf; see <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>. Only the CNDE project team can read them, and they are used only to debug and improve the app. Each upload is deleted automatically 30 days after it is received.</p>
+<p>To have your uploads deleted sooner, email the address below with your nickname. To stop further uploads, uninstall the app.</p>
+
+<h2>What is saved on your phone</h2>
+<p>Session history (images, questions, replies and notes), logs and app settings are saved in the app's private storage on your device. You can delete sessions in the app, or remove everything by clearing the app's storage or uninstalling it. This does not remove copies already sent as test diagnostics, which expire after 30 days as described above.</p>
 
 <h2>Advisory use only</h2>
 <p>The guidance is advisory. It does not make accept or reject decisions and does not replace your procedure, applicable standards or a qualified inspector.</p>
@@ -43,7 +51,7 @@
 <p>The app is intended for adult professionals and is not directed at children.</p>
 
 <h2>Contact</h2>
-<p>Questions about this policy: <a href="mailto:id26s421@smail.iitm.ac.in">id26s421@smail.iitm.ac.in</a>.<br>
+<p>Questions about this policy, or requests to delete your data: <a href="mailto:id26s421@smail.iitm.ac.in">id26s421@smail.iitm.ac.in</a>.<br>
 Centre for Non-Destructive Evaluation, IIT Madras, Chennai 600036, India. <a href="https://www.cnde.in">www.cnde.in</a></p>
 </body>
 </html>
